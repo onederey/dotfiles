@@ -20,6 +20,6 @@ makepkg -si
 cd ..
 rm -rf ./yay
 
-aur=( visual-studio-code-bin amneziavpn-bin python-pywal16 python-pywalfox wlogouti )
+aur=( visual-studio-code-bin amneziavpn-bin python-pywal16 python-pywalfox wlogout )
 
 yay -Sy "${aur[@]}"
