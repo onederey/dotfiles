@@ -1,0 +1,53 @@
+@import ".cache/wal/colors-waybar.css";
+
+window {
+margin: 0px;
+border: 1px solid @color5;
+background-color: @background;
+}
+
+#input {
+margin: 5px;
+border: none;
+color: @color7;
+background-color: @color1;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+background-color: @background;
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: @background;
+}
+
+#scroll {
+margin: 0px;
+border: none;
+}
+
+#text {
+margin: 5px;
+border: none;
+color: @color7;
+} 
+
+#entry.activatable #text {
+color: @background;
+}
+
+#entry > * {
+color: @color7;
+}
+
+#entry:selected {
+background-color: @color1;
+}
+
+#entry:selected #text {
+font-weight: bold;
+}
