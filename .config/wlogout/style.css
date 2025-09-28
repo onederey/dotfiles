@@ -1,0 +1,50 @@
+@import '/home/onederey/.cache/wal/colors-waybar.css';
+
+/* general */ 
+* {
+    background-image: none;
+    transition: 20ms;
+    box-shadow: none;
+}
+
+window {
+    /* background-image: image(url("home/onederey/Pictures/current_wallpaper.png"));*/
+    background-color: @background;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: @color1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    border: none;
+    border-radius: 0px;
+    outline-style: none;
+}
+
+/* options */ 
+#lock {
+    background-color: @color1;
+    background-image: image(url("icons/lock.png"));
+}
+
+#reboot {
+    background-color: @color2;
+    background-image: image(url("icons/reboot.png"));
+}
+
+#logout {
+    background-color: @color3;
+    background-image: image(url("icons/logout.png"));
+}
+
+#shutdown {
+    background-color: @color4;
+    background-image: image(url("icons/shutdown.png"));
+}
+
+/* options on hover */ 
+button:hover {
+    background-size: 30%;
+}
