@@ -6,7 +6,7 @@
 
 sudo -v
 
-packages=( firefox fastfetch kitty telegram-desktop obsidian qbittorrent vlc vim git keepassxc less dotnet-sdk base-devel brightnessctl waybar hyprpaper otf-font-awesome hyprlock stow hypridle ttf-jetbrains-mono ttf-jetbrains-mono-nerd pavucontrol blueman ) 
+packages=( firefox fastfetch kitty telegram-desktop obsidian qbittorrent vlc vim git keepassxc less dotnet-sdk base-devel brightnessctl waybar hyprpaper otf-font-awesome hyprlock stow hypridle ttf-jetbrains-mono ttf-jetbrains-mono-nerd pavucontrol blueman cliphist ) 
 
 echo  "Listed packages will be installed:"
 echo  "	-> ${packages[@]}"
