@@ -10,7 +10,7 @@ background-color: @background;
 margin: 5px;
 border: none;
 color: @color7;
-background-color: @color1;
+background-color: @color3;
 }
 
 #inner-box {
@@ -45,7 +45,7 @@ color: @color7;
 }
 
 #entry:selected {
-background-color: @color1;
+background-color: @color3;
 }
 
 #entry:selected #text {
