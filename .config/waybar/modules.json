@@ -23,13 +23,19 @@
 		"on-click": "activate",
 		"on-click-middle": "close",
 	},
+
+	"hyprland/language": {
+		"format": " {}",
+		"format-en": "us",
+		"format-ru": "ru"
+	}, 
 	
 	// clock
 	"clock": {  
 		"interval": 1,
-		"format": "{:%H:%M}",
+		"format": "{:%H:%M:%S}",
 		//"format": "{:%I:%M %p}", // AM PM format
-		"format-alt": "{:%A, %B %d - %H:%M}",
+		"format-alt": "{:%A, %B %d - %H:%M:%S}",
 		"tooltip-format": "<big>{calendar}</big>",
 		"calendar": {
 			"mode": "month",
@@ -58,7 +64,6 @@
 			"custom/system",
 			"cpu",
 			"temperature",
-			"disk",
 			"memory"
 		]
 	},
@@ -80,14 +85,6 @@
 		"format": " 󰈸 {temperatureC}°C ",
 		"on-click": "kitty btop"
 	},
-	
-	// harddisc space
-	"disk": {
-		"interval": 30,
-		"format": " 󰋊 {percentage_used}% ",
-		"path": "/",
-		"on-click": "kitty btop"
-	}, 
 	
 	// memory
 	"memory": {

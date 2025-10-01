@@ -1,16 +1,15 @@
-// -*- mode: jsonc -*-
 {
 	// load modules
 	"include": "~/.config/waybar/modules.json",
 	
 	// general settings
 	"position": "top",
-	"margin-top": 8,
+	"margin-top": 5,
 	"margin-bottom": 0,
 	"layer": "top",
-	"margin-left": 8,
-	"margin-right": 8,    
-	"spacing": 10,
+	"margin-left": 5,
+	"margin-right": 5,    
+	"spacing": 5,
 	"fixed-center": true,
 	"exclusive": true,
 	
@@ -27,6 +26,7 @@
        "modules-right": [
            "group/hardware",
            "pulseaudio",
+		   "hyprland/language",
            "bluetooth",
            "network",
            "battery", 
